@@ -21,3 +21,9 @@ It integrates tools such as MetaWRAP, dRep, GTDB-Tk, and QIIME2 into a single au
 ```bash
 # Example SLURM submission
 sbatch pipeline.sh -w <workdir> -r <reads_dir> -f <fasta_dir> -o <output_dir>
+
+## Citation
+
+If you use this pipeline, please cite:
+
+> **Rodrigo Echeverry** (2025). *Metagenomics Pipeline for MAG Binning, Dereplication and Taxonomy.* GitHub. DOI: [DOI: 10.5281/zenodo.17196561]
