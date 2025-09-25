@@ -21,8 +21,7 @@ It integrates tools such as MetaWRAP, dRep, GTDB-Tk, and QIIME2 into a single au
 ```bash
 # Example SLURM submission
 sbatch pipeline.sh -w <workdir> -r <reads_dir> -f <fasta_dir> -o <output_dir>
-
----
+```
 
 ## Citation
 
